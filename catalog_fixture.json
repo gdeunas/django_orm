@@ -1,0 +1,57 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+        "name": "Фрукты",
+        "description": "Фрукты."
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+        "name": "Овощи",
+        "description": "Овощи."
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+        "name": "Банан",
+        "description": "банан.",
+        "image": "photos/one-banana-isolated-on-white-background-top-view-flat-lay_438009-4982.avif",
+        "category": 1,
+        "price": 100.0,
+        "created_at": "2026-02-04T07:38:56.709Z",
+        "updated_at": "2026-02-04T07:51:26.806Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Лимон",
+        "description": "лимон.",
+        "image": "photos/lemon-fruit-lemon-with-leaves-isolated-on-white-background-lemon-clipping-path_2_tFjzho8.avif",
+        "category": 1,
+        "price": 50.0,
+        "created_at": "2026-02-04T07:49:44.656Z",
+        "updated_at": "2026-02-04T07:51:19.327Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Капуста",
+        "description": "капуста.",
+        "image": "photos/капуста.webp",
+        "category": 2,
+        "price": 70.0,
+        "created_at": "2026-02-04T07:51:11.203Z",
+        "updated_at": "2026-02-04T07:51:11.203Z"
+    }
+}
+]
